@@ -297,7 +297,7 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .portfolio .box-container .box:hover img{
@@ -366,9 +366,9 @@ header .navbar ul li a:hover{
 
 .top{
     position: fixed;
-    bottom:7.5rem; right: 2rem;
+    bottom:1rem; right: 0.5rem;
     z-index: 100;
-    display: none;
+    
 }
 
 
@@ -394,7 +394,7 @@ header .navbar ul li a:hover{
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
     transition: all 0.3s ease-out;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     
   }
 
